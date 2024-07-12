@@ -3,6 +3,7 @@ nginx
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
---platform=linux/arm-7 xiaoyaliu/alist
---platform=linux/arm-7 whyour/qinglong
---platform=linux/arm-7 wangbinxingkong/fast
+--platform=linux/arm/v7 xiaoyaliu/alist
+--platform=linux/arm/v7 whyour/qinglong
+--platform=linux/arm/v7 wangbinxingkong/fast
+--platform=linux/arm/v7 xhofe/alist
